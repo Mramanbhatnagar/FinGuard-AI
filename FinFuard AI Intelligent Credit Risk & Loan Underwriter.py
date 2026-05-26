@@ -11,7 +11,7 @@ import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
 # --- CONFIGURATION ---
-API_KEY = "YOUR_GEMINI_API_KEY_HERE"  # Replace with a valid Gemini API Key
+API_KEY = "----API KEY----"  # Replace with a valid Gemini API Key
 genai.configure(api_key=API_KEY)
 
 DB_FILE = "loan_underwriting_v1.db"
